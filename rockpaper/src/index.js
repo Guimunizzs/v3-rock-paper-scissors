@@ -18,7 +18,7 @@ root.render(
 reportWebVitals();
 
 ReactDOM.render(
-  <Router basename="/rock-paper-scissors">
+  <Router basename="/v3-rock-paper-scissors">
     <App />
   </Router>,
   document.getElementById("root")
