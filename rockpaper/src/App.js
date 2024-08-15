@@ -14,13 +14,11 @@ function App() {
   const jogo = useJogoPedraPapelTesoura();
   return (
     <div className="App">
-      <BrowserRouter>
-        <Header score={jogo.score} />
-        <Routes>
-          <Route path="/" element={<Play jogar={jogo.jogar} />} />
-          <Route path="/game" element={<Game {...jogo} />} />
-        </Routes>
-      </BrowserRouter>
+      <Header score={jogo.score} />
+      <Routes>
+        <Route path="/" element={<Play jogar={jogo.jogar} />} />
+        <Route path="/game" element={<Game {...jogo} />} />
+      </Routes>
     </div>
   );
 }
