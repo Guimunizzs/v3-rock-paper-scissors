@@ -1,0 +1,27 @@
+nav {
+  text-align: center;
+}
+.nav-container {
+  display: flex;
+  background-color: rgb(105, 118, 236);
+  width: auto;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid rgb(49, 47, 47);
+  border-radius: 15px;
+}
+
+.score {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 40px;
+  width: 110px;
+  height: 85px;
+}
+
+.score p {
+  font-size: 20px;
+  font-weight: bold;
+}

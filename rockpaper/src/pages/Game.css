@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.escolha {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bolder;
+  gap: 20px;
+}
+
+.button-reset {
+  width: 200px;
+  padding: 10px;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: rgb(105, 118, 236);
+}
